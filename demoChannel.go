@@ -7,10 +7,6 @@ import (
 var info chan string
 
 func Routine() {
-	fmt.Println("routine1")
-	fmt.Println("routine2")
-	fmt.Println("routine3")
-
 	info <- "info1"
 	info <- "info2"
 	info <- "info3"
